@@ -156,6 +156,40 @@ footer p {
 .back-to-top:hover {
     background-color: #C0392B;
 }
+
+/* Styling for the back-to-top button */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #E74C3C;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    display: none;
+}
+
+.back-to-top:hover {
+    background-color: #C0392B;
+}
+
+button {
+    background-color: #3498DB;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+button:hover {
+    background-color: #2980B9;
+}
 ```
     }
   }
