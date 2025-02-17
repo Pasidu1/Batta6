@@ -1,0 +1,161 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2C3E50; /* Dark background */
+    color: #ecf0f1; /* Light text */
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+}
+
+/* Container for content */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Styles */
+header {
+    background-color: #34495E;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* About Section */
+#about {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #16A085; /* Greenish background */
+}
+
+#about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+/* Button Styling */
+.btn {
+    background-color: #E74C3C; /* Red button */
+    color: white;
+    padding: 15px 30px;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #C0392B;
+}
+
+/* Services Section */
+#services {
+    padding: 50px 0;
+    text-align: center;
+
+
+background-color: #F39C12; /* Yellowish background */
+}
+
+#services h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#services ul {
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+
+#services li {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #9B59B6; /* Purple background */
+}
+
+#contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #34495E;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 1em;
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    #about h2, #services h2, #contact h2 {
+        font-size: 2em;
+
+      /* Style for the "Back to Top" Button */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #E74C3C;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    display: none; /* Hidden by default */
+}
+
+.back-to-top:hover {
+    background-color: #C0392B;
+}
+```
+    }
+  }
